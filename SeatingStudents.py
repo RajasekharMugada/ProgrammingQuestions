@@ -38,7 +38,6 @@ def SeatingStudents(arr):
             if pos+2 not in occupied:
                 num_pairs += 1 
         arr = num_pairs 
-        
     return arr
-    
+
 print (SeatingStudents(arr))
